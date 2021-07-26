@@ -110,7 +110,7 @@ function M.setup(colors)
     hi.Character    = { guifg = M.colors.base08, guibg = nil,             gui = nil,    guisp = nil }
     hi.Comment      = { guifg = M.colors.base03, guibg = nil,             gui = nil,    guisp = nil }
     hi.Conditional  = { guifg = M.colors.base0E, guibg = nil,             gui = nil,    guisp = nil }
-    hi.Constant     = { guifg = M.colors.base09, guibg = nil,             gui = nil,    guisp = nil }
+    hi.Constant     = { guifg = M.colors.base10, guibg = nil,             gui = nil,    guisp = nil }
     hi.Define       = { guifg = M.colors.base0E, guibg = nil,             gui = 'none', guisp = nil }
     hi.Delimiter    = { guifg = M.colors.base0F, guibg = nil,             gui = nil,    guisp = nil }
     hi.Float        = { guifg = M.colors.base09, guibg = nil,             gui = nil,    guisp = nil }
@@ -193,7 +193,7 @@ function M.setup(colors)
     hi.TSComment            = { guifg = M.colors.base03, guibg = nil, gui = 'italic',        guisp = nil }
     hi.TSConstructor        = { guifg = M.colors.base0D, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSConditional        = { guifg = M.colors.base0E, guibg = nil, gui = 'none',          guisp = nil }
-    hi.TSConstant           = { guifg = M.colors.base09, guibg = nil, gui = 'none',          guisp = nil }
+    hi.TSConstant           = { guifg = M.colors.base10, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSConstBuiltin       = { guifg = M.colors.base09, guibg = nil, gui = 'italic',        guisp = nil }
     hi.TSConstMacro         = { guifg = M.colors.base08, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSError              = { guifg = M.colors.base08, guibg = nil, gui = 'none',          guisp = nil }
@@ -222,7 +222,7 @@ function M.setup(colors)
     hi.TSString             = { guifg = M.colors.base0B, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSStringRegex        = { guifg = M.colors.base0C, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSStringEscape       = { guifg = M.colors.base0C, guibg = nil, gui = 'none',          guisp = nil }
-    hi.TSSymbol             = { guifg = M.colors.base0B, guibg = nil, gui = 'none',          guisp = nil }
+    hi.TSSymbol             = { guifg = M.colors.base10, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSTag                = { guifg = M.colors.base0A, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSTagDelimiter       = { guifg = M.colors.base0F, guibg = nil, gui = 'none',          guisp = nil }
     hi.TSText               = { guifg = M.colors.base05, guibg = nil, gui = 'none',          guisp = nil }
